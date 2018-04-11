@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182B651E207D9E4D00047344 /* hello.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 182B651D207D9E4C00047344 /* hello.rtf */; };
+		18BDEE80207C99E500965A98 /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDEE7E207C99E500965A98 /* LockViewController.m */; };
+		18BDEE81207C99E500965A98 /* LockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BDEE7F207C99E500965A98 /* LockViewController.xib */; };
+		18BDEE85207CA71D00965A98 /* SyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDEE83207CA71D00965A98 /* SyncViewController.m */; };
+		18BDEE86207CA71D00965A98 /* SyncViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BDEE84207CA71D00965A98 /* SyncViewController.xib */; };
 		18D2A953207B4A3200CE681D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2A952207B4A3200CE681D /* AppDelegate.m */; };
 		18D2A956207B4A3200CE681D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2A955207B4A3200CE681D /* ViewController.m */; };
 		18D2A959207B4A3200CE681D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D2A957207B4A3200CE681D /* Main.storyboard */; };
@@ -16,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182B651D207D9E4C00047344 /* hello.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = hello.rtf; sourceTree = "<group>"; };
+		18BDEE7D207C99E500965A98 /* LockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
+		18BDEE7E207C99E500965A98 /* LockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockViewController.m; sourceTree = "<group>"; };
+		18BDEE7F207C99E500965A98 /* LockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LockViewController.xib; sourceTree = "<group>"; };
+		18BDEE82207CA71D00965A98 /* SyncViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyncViewController.h; sourceTree = "<group>"; };
+		18BDEE83207CA71D00965A98 /* SyncViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyncViewController.m; sourceTree = "<group>"; };
+		18BDEE84207CA71D00965A98 /* SyncViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SyncViewController.xib; sourceTree = "<group>"; };
 		18D2A94E207B4A3200CE681D /* GCD-TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GCD-TestDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D2A951207B4A3200CE681D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18D2A952207B4A3200CE681D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,10 +70,17 @@
 		18D2A950207B4A3200CE681D /* GCD-TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				182B651D207D9E4C00047344 /* hello.rtf */,
 				18D2A951207B4A3200CE681D /* AppDelegate.h */,
 				18D2A952207B4A3200CE681D /* AppDelegate.m */,
 				18D2A954207B4A3200CE681D /* ViewController.h */,
 				18D2A955207B4A3200CE681D /* ViewController.m */,
+				18BDEE7D207C99E500965A98 /* LockViewController.h */,
+				18BDEE7E207C99E500965A98 /* LockViewController.m */,
+				18BDEE7F207C99E500965A98 /* LockViewController.xib */,
+				18BDEE82207CA71D00965A98 /* SyncViewController.h */,
+				18BDEE83207CA71D00965A98 /* SyncViewController.m */,
+				18BDEE84207CA71D00965A98 /* SyncViewController.xib */,
 				18D2A957207B4A3200CE681D /* Main.storyboard */,
 				18D2A95A207B4A3200CE681D /* Assets.xcassets */,
 				18D2A95C207B4A3200CE681D /* LaunchScreen.storyboard */,
@@ -129,9 +148,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BDEE86207CA71D00965A98 /* SyncViewController.xib in Resources */,
+				182B651E207D9E4D00047344 /* hello.rtf in Resources */,
 				18D2A95E207B4A3200CE681D /* LaunchScreen.storyboard in Resources */,
 				18D2A95B207B4A3200CE681D /* Assets.xcassets in Resources */,
 				18D2A959207B4A3200CE681D /* Main.storyboard in Resources */,
+				18BDEE81207C99E500965A98 /* LockViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BDEE85207CA71D00965A98 /* SyncViewController.m in Sources */,
 				18D2A956207B4A3200CE681D /* ViewController.m in Sources */,
 				18D2A961207B4A3200CE681D /* main.m in Sources */,
 				18D2A953207B4A3200CE681D /* AppDelegate.m in Sources */,
+				18BDEE80207C99E500965A98 /* LockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
